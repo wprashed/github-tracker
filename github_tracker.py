@@ -9,7 +9,7 @@ import json
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
-# GitHub API details
+# GitHub API detail
 GITHUB_API_URL = "https://api.github.com/repos/{owner}/{repo}/issues"
 GITHUB_TOKEN = "your_github_token"
 OWNER = "your_github_owner"
