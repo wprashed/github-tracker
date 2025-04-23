@@ -22,7 +22,7 @@ This project allows you to track GitHub Issues and Pull Requests (PRs) from a sp
   - `flask`
   - `notion-client`
   
-You can install the necessary libraries using the following command:
+####You can install the necessary libraries using the following command:
 
 ```bash
 pip install requests slack_sdk flask notion-client
