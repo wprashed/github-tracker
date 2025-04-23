@@ -4,14 +4,14 @@
     <title>GitHub Tracker Dashboard</title>
 </head>
 <body>
-    <h1>GitHub Issues</h1>
+    <h2>GitHub Issues</h2>
     <ul>
         {% for issue in issues %}
         <li><a href="{{ issue['url'] }}">{{ issue['title'] }}</a> by {{ issue['user'] }}</li>
         {% endfor %}
     </ul>
 
-    <h1>Pull Requests</h1>
+    <h2>Pull Requests</h2>
     <ul>
         {% for pr in prs %}
         <li><a href="{{ pr['url'] }}">{{ pr['title'] }}</a> by {{ pr['user'] }}</li>
